@@ -1,0 +1,9 @@
+.contain-to-grid, .top-bar {
+	background: transparent;
+	height: 60px;
+
+	@media screen and (min-width: 1440px) {
+		height: 141px;
+		padding-top: 9px;
+	}
+}

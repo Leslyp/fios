@@ -1,0 +1,39 @@
+.desktop-nav {
+	display: none;
+	
+	&__list {
+		display: flex;
+
+		&-item {
+			a {
+				padding: 0 22px;
+				font-size: 24px;
+				line-height: 33px;
+				color: $color-black;
+			}
+			
+			/* target ul in li */
+			ul {
+				margin-left: 200px;
+				padding-top: 34px;
+				font-size: 12px;
+				line-height: 17px;
+
+				a {
+					padding: 0;
+					color: $color-primary;
+				}
+			}
+		}
+
+		/* give padding to nav list except for last and first li */
+		li:not(:first-child):not(:last-child) {
+			padding-top: 52px;
+		}
+
+	}
+
+	@media screen and (min-width: 1440px) {
+		display: block;
+	}
+} 

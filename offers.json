@@ -1,0 +1,194 @@
+{
+    "offers": [
+        {
+            "category": "Triple Plays",
+            "plans": [
+                {
+                    "description": "150/150 Mbps Internet, Custom TV & Home Phone",
+                    "price": "$79.99/mo",
+                    "legal": "for 2yrs. w/2-yr agmt., + taxes, RSN, FDV, & other fees $12/mo. STB equip. charge <sup>1</sup>",
+                    "internet": {
+                        "label": "150/150 Mbps Internet",
+                        "sublabel": "Ideal for 8 devices.",
+                        "detail": "Download a 2hr HD video (5GB) in 4.6min<sup>2</sup>"
+                    }, 
+                    "tv": {
+                        "label": "Custom TV",
+                        "sublabel": "Pick a package that fits your lifestyle.",
+                        "detail": "Multi-room DVR Enhanced Service free for 2 years.<sup>1</sup>",
+                        "premiumChannels": false
+                    }, 
+                    "phone": {
+                        "label": "Home Phone",
+                        "sublabel": "Unlimited nationwide calling"
+                    }
+                },
+                {
+                    "description": "150/150 Mbps Internet, Preferred TV & Home Phone",
+                    "price": "$94.99/mo",
+                    "legal": "for 2yrs. w/2-yr agmt., + taxes, RSN, FDV, & other fees $12/mo. STB equip. charge <sup>1</sup>",
+                    "internet": {
+                        "label": "150/150 Mbps Internet",
+                        "sublabel": "Ideal for 8 devices.",
+                        "detail": "Download a 2hr HD video (5GB) in 4.6min<sup>2</sup>"
+                    }, 
+                    "tv": {
+                        "label": "Preferred TV",
+                        "sublabel": "280+ channels, including 95+ in HD<sup>5</sup>",
+                        "detail": "Multi-room DVR Enhanced Service free for 2 years.<sup>1</sup>",
+                        "premiumChannels": false
+                    }, 
+                    "phone": {
+                        "label": "Home Phone",
+                        "sublabel": "Unlimited nationwide calling"
+                    }
+                },
+                {
+                    "description": "300/300 Mbps Internet, Custom TV & Home Phone",
+                    "price": "$119.99/mo",
+                    "legal": "for 2yrs. w/2-yr agmt., + taxes, RSN, FDV, & other fees $12/mo. STB equip. charge <sup>1</sup>",
+                    "internet": {
+                        "label": "300/300 Mbps Internet",
+                        "sublabel": "Ideal for 8+ devices.",
+                        "detail": "Download a 2hr HD video (5GB) in 2.3min<sup>2</sup>"
+                    }, 
+                    "tv": {
+                        "label": "Custom TV",
+                        "sublabel": "280+ channels, including 95+ in HD<sup>5</sup>",
+                        "detail": "Multi-room DVR Enhanced Service free for 2 years.<sup>1</sup>",
+                        "premiumChannels": false
+                    }, 
+                    "phone": {
+                        "label": "Home Phone",
+                        "sublabel": "Unlimited nationwide calling"
+                    }
+                },
+                {
+                    "description": "150/150 Mbps Internet, Ultimate TV & Home Phone",
+                    "price": "$124.99/mo",
+                    "legal": "for 2yrs. w/2-yr agmt., + taxes, RSN, FDV, & other fees $12/mo. STB equip. charge <sup>1</sup>",
+                    "internet": {
+                        "label": "150/150 Mbps Internet",
+                        "sublabel": "Ideal for 8+ devices.",
+                        "detail": "Download a 2hr HD video (5GB) in 4.6min<sup>2</sup>"
+                    }, 
+                    "tv": {
+                        "label": "Ultimate TV",
+                        "sublabel": "440+ channels, including 160+ in HD<sup>5</sup>",
+                        "detail": "Multi-room DVR Enhanced Service free for 2 years.<sup>1</sup>",
+                        "premiumChannels": true
+                    }, 
+                    "phone": {
+                        "label": "Home Phone",
+                        "sublabel": "Unlimited nationwide calling"
+                    }
+                }
+                
+            ]
+        },
+        {
+            "category": "Double Plays",
+            "plans": [
+                {
+                    "description": "150/150 Mbps Internet, Custom TV",
+                    "price": "$79.99/mo",
+                    "legal": "for 2yrs. w/2-yr agmt., + taxes, RSN, FDV, & other fees $12/mo. STB equip. charge <sup>1</sup>",
+                    "internet": {
+                        "label": "150/150 Mbps Internet",
+                        "sublabel": "Ideal for 8 devices.",
+                        "detail": "Download a 2hr HD video (5GB) in 4.6min<sup>2</sup>"
+                    }, 
+                    "tv": {
+                        "label": "Custom TV",
+                        "sublabel": "Pick a package that fits your lifestyle.",
+                        "detail": "Multi-room DVR Enhanced Service free for 2 years.<sup>1</sup>",
+                        "premiumChannels": false
+                    }
+                },
+                {
+                    "description": "150/150 Mbps Internet, Preferred TV",
+                    "price": "$94.99/mo",
+                    "legal": "for 2yrs. w/2-yr agmt., + taxes, RSN, FDV, & other fees $12/mo. STB equip. charge <sup>1</sup>",
+                    "internet": {
+                        "label": "150/150 Mbps Internet",
+                        "sublabel": "Ideal for 8 devices.",
+                        "detail": "Download a 2hr HD video (5GB) in 4.6min<sup>2</sup>"
+                    }, 
+                    "tv": {
+                        "label": "Preferred TV",
+                        "sublabel": "280+ channels, including 95+ in HD<sup>5</sup>",
+                        "detail": "Multi-room DVR Enhanced Service free for 2 years.<sup>1</sup>",
+                        "premiumChannels": false
+                    }
+                },
+                {
+                    "description": "300/300 Mbps Internet, Custom TV",
+                    "price": "$119.99/mo",
+                    "legal": "for 2yrs. w/2-yr agmt., + taxes, RSN, FDV, & other fees $12/mo. STB equip. charge <sup>1</sup>",
+                    "internet": {
+                        "label": "300/300 Mbps Internet",
+                        "sublabel": "Ideal for 8+ devices.",
+                        "detail": "Download a 2hr HD video (5GB) in 2.3min<sup>2</sup>"
+                    }, 
+                    "tv": {
+                        "label": "Custom TV",
+                        "sublabel": "280+ channels, including 95+ in HD<sup>5</sup>",
+                        "detail": "Multi-room DVR Enhanced Service free for 2 years.<sup>1</sup>",
+                        "premiumChannels": false
+                    }
+                },
+                {
+                    "description": "150/150 Mbps Internet, Ultimate TV",
+                    "price": "$124.99/mo",
+                    "legal": "for 2yrs. w/2-yr agmt., + taxes, RSN, FDV, & other fees $12/mo. STB equip. charge <sup>1</sup>",
+                    "internet": {
+                        "label": "150/150 Mbps Internet",
+                        "sublabel": "Ideal for 8+ devices.",
+                        "detail": "Download a 2hr HD video (5GB) in 4.6min<sup>2</sup>"
+                    }, 
+                    "tv": {
+                        "label": "Ultimate TV",
+                        "sublabel": "440+ channels, including 160+ in HD<sup>5</sup>",
+                        "detail": "Multi-room DVR Enhanced Service free for 2 years.<sup>1</sup>",
+                        "premiumChannels": true
+                    }
+                }
+            ]
+        },
+        {
+            "category": "Internet only",
+            "plans": [
+                {
+                    "description": "50/50 Mbps Internete",
+                    "price": "$79.99/mo",
+                    "legal": "for 2yrs. w/2-yr agmt., + taxes, RSN, FDV, & other fees $12/mo. STB equip. charge <sup>1</sup>",
+                    "internet": {
+                        "label": "150/150 Mbps Internet",
+                        "sublabel": "Ideal for 8 devices.",
+                        "detail": "Download a 2hr HD video (5GB) in 9.9min<sup>2</sup>"
+                    }
+                },
+                {
+                    "description": "150/150 Mbps Internet",
+                    "price": "$94.99/mo",
+                    "legal": "for 2yrs. w/2-yr agmt., + taxes, RSN, FDV, & other fees $12/mo. STB equip. charge <sup>1</sup>",
+                    "internet": {
+                        "label": "150/150 Mbps Internet",
+                        "sublabel": "Ideal for 8 devices.",
+                        "detail": "Download a 2hr HD video (5GB) in 4.6min<sup>2</sup>"
+                    }
+                },
+                {
+                    "description": "300/300 Mbps Internet",
+                    "price": "$119.99/mo",
+                    "legal": "for 2yrs. w/2-yr agmt., + taxes, RSN, FDV, & other fees $12/mo. STB equip. charge <sup>1</sup>",
+                    "internet": {
+                        "label": "300/300 Mbps Internet",
+                        "sublabel": "Ideal for 8+ devices.",
+                        "detail": "Download a 2hr HD video (5GB) in 2.3min<sup>2</sup>"
+                    }
+                } 
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+header {
+	display: none;
+	background-color: $color-primary;
+	color: white;
+	
+	.contain-header	{
+		.header__list {
+			list-style: none;
+			display: flex;
+			margin-top: 12px;
+
+			&--left {
+				margin-left: 182px;
+
+				/*li:first-child {
+					border-top: 2px solid $color-black;
+				}*/
+			}
+			&--right {
+				margin-top: -46px;
+			}
+			&-item {
+				a {
+					font-size: 12px;
+					line-height: 15px;
+					color: $color-header-link;
+					margin-right: 28px;
+				}
+				
+				img {
+					width: 15px;
+					height: 12px;
+					margin-right: 6px;
+				}
+			}
+
+			/* add border to selected header item */
+			.selected {
+				border-top: 2px solid $color-black;
+				margin-top: -10px;
+				padding-top: 8px;
+			}
+		}
+	}
+
+	@media screen and (min-width: 1440px) {
+		display: inline;
+	}
+}

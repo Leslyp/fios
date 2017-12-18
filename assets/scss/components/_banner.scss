@@ -1,0 +1,157 @@
+.banner {
+	display: none;
+
+	&__content {
+		display: flex;
+		padding: 22px 0;
+		&-image {
+			width: 20px;
+			height: 17px;
+			margin-right: 18px;
+			margin-left: 40px;
+		}
+		&-text {
+			font-size: 15px;
+			line-height: 17px;
+			margin: 0;
+		}
+		&-link {
+			font-size: 16px;
+			line-height: 17px;
+			color: $color-primary;
+			margin-left: 30px;
+			margin-right: 12px; 
+
+			img {
+				margin-left: 12px;
+			}
+		}
+	}
+
+	&-shop {
+		padding-top: 21px;
+		border-bottom: 1px solid $line-primary;
+
+		.banner__container{
+			clear: both;
+
+			hr {
+				margin: 0;
+				margin-bottom: 60px;
+				color: $line-primary;
+			}
+			.tab__container {
+			  /* allows you to scroll in tabs */  
+			  overflow: scroll; 
+
+				&-text {
+					display: none;
+					color: $color-primary;
+
+					@media screen and (min-width: 1440px) {
+						display: inline-block;
+					}
+				} 
+				section {
+			  		display: none;
+				}
+
+				/* takes away the radio buttons next to labels */
+				input {
+			  		display: none;
+				}
+
+				/* targets all label elements placed immediately after input elements */
+				input:checked + label {
+					border-bottom: 2px solid $color-primary;
+					padding-bottom: 20px;
+				}
+
+				/* targets every content id that comes before a tab id element,
+				if they are clicked then diplay there content */
+				#playChoice1:checked ~ #content1,
+				#playChoice2:checked ~ #content2,
+				#playChoice3:checked ~ #content3,
+				#playChoice4:checked ~ #content4 {
+				  display: block;
+				}
+
+				#play1:checked ~ #content1,
+				#play2:checked ~ #content2 {
+				  display: block;
+				}
+
+				&--mobile {
+					label {
+				  		display: inline-block;
+					}
+
+					@media screen and (min-width: 1440px) {
+						display: none;
+					}
+				}
+				&--desktop {
+			  		display: none;
+
+					@media screen and (min-width: 1440px) {
+						display: inline-block;
+					}
+				}
+			}
+		}
+
+		&__contact {
+			padding-top: 54px;
+
+			&-button {
+				width: 340px;
+				height: 54px;
+				font-size: 18px;
+				line-height: 17px;
+				background-color: $color-black;
+				border-radius: 100px;
+
+				@media screen and (min-width: 1440px) {
+					display: none;
+				}
+			}
+			&-text {
+				padding: 0;
+				margin: 0;
+				padding-bottom: 17px;
+				font-size: 16px;
+				line-height: 15px;
+
+				.underline {
+					text-decoration: underline;
+				}
+				&--large {
+					font-size: 24px;
+					line-height: 22px;
+					padding: 0;
+					margin: 0;
+
+					.red {
+						font-size: 20px;
+						line-height: 18px;
+						color: $color-primary;
+					}
+				}
+
+				@media screen and (min-width: 1440px) {
+					padding-bottom: 18px;
+					font-size: 20px;
+					line-height: 24px;
+				}
+			}
+		}
+
+		@media screen and (min-width: 1440px) {
+			padding-top: 90px;
+		}
+	}
+
+	@media screen and (min-width: 1440px) {
+		display: block;
+	}
+}

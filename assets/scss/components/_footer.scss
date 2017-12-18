@@ -1,0 +1,123 @@
+.footer {
+	margin-top: 90px;
+	margin-bottom: 120px;
+	
+	&__search {
+		position: relative;
+
+		&-form {
+			label {
+				font-size: 18px;
+				line-height: 24px;
+				color: $color-primary;
+				margin-bottom: 24px;
+			}
+			input {
+				margin-bottom: 60px;
+				border: none;
+				border-bottom: 1px solid $form-primary;
+				box-shadow: none;
+
+				&::placeholder {
+					font-size: 14px;
+					line-height: 21px;
+					color: $color-black;
+				}
+			}
+		}
+		&-image {
+			position: absolute;
+			width: 24px;
+			height: 19px;
+			top: 58px;
+			left: 445px;
+
+			@media screen and (max-width: 1439px) {
+				left: 320px;
+			}
+		}
+	}
+	&__list-container {
+		display: flex;
+		margin-bottom: 58px;
+	}
+	&__list {
+		list-style: none;
+		margin: 0;
+
+		&-item {
+			a {
+				color: $color-black-light;
+
+				@media screen and (max-width: 1439px) {
+					font-size: 10px;
+				}
+			}
+			&--first {
+				margin-bottom: 24px;
+				a {
+					color: $color-black;
+				}
+			}
+		}
+	}	
+	&__terms-container {
+		margin-bottom: 97px;
+
+		&-text {
+			font-size: 12px;
+			line-height: 14px;
+			color: $form-primary;
+
+			@media screen and (max-width: 1439px) {
+				font-size: 10px;
+			}
+		}
+		.terms__list {
+			list-style: none;
+			margin: 0;
+			display: flex;
+
+			&-item {
+				font-size: 12px;
+				line-height: 14px;
+				padding: 0 9px;
+				color: $form-primary;
+
+				@media screen and (max-width: 1439px) {
+					font-size: 10px;
+				}
+			}
+
+			@media screen and (max-width: 1439px) {
+				margin-top: 20px;
+			}
+		}
+
+		@media screen and (max-width: 1439px) {
+			margin-bottom: 30px;
+		}
+	}
+	&__image {
+		&--general {
+			margin-bottom: 97px;
+
+			@media screen and (max-width: 1439px) {
+				margin-bottom: 40px;
+			}
+		}
+		&--vweb-logo {
+			width: 178px;
+			height: 73px;
+
+			@media screen and (max-width: 1439px) {
+				width: 100px;
+				height: 50px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 1439px) {
+		margin: 40px 0;
+	}
+}

@@ -1,0 +1,58 @@
+.bundle {
+	&__content {
+		&-title {
+			font-size: 60px;
+			line-height: 57px;
+			color: $color-black;
+			margin-bottom: 18px;
+		}
+		&-text {
+			font-size: 20px;
+			line-height: 24px;
+			color: $color-black;
+			margin-bottom: 12px;
+
+			span {
+				 text-decoration: underline;
+			}
+		}
+		&-link {
+			font-size: 24px;
+			line-height: 23px;
+			color: $color-primary;
+		}
+	}
+
+	&-shop {
+		.underline {
+			text-decoration: underline;
+		}
+		&__heading {
+			margin-bottom: 60px;
+
+			&-title {
+				font-size: 60px;
+				line-height: 57px;
+				color: $color-black;
+			}
+		}
+
+		.plan {
+			border-top: 2px solid $color-black;
+			margin-top: 60px;
+
+			&__title {
+				font-size: 24px;
+				line-height: 23px;
+				color: $color-black;
+				margin-top: 14px;
+				margin-bottom: 12px;
+			}
+			&__text {
+				font-size: 14px;
+				line-height: 17px;
+				color: $color-black;
+			}
+		}
+	}
+}
