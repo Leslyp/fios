@@ -16196,16 +16196,17 @@ header {
   display: none; }
   .desktop-nav__list {
     display: flex;
+    margin: 0;
     /* give padding to nav list except for last and first li */ }
     .desktop-nav__list-item {
       /* target ul in li */ }
       .desktop-nav__list-item a {
-        padding: 0 22px;
+        padding: 0 21px;
         font-size: 24px;
         line-height: 33px;
         color: #000000; }
       .desktop-nav__list-item ul {
-        margin-left: 200px;
+        margin-left: 250px;
         padding-top: 34px;
         font-size: 12px;
         line-height: 17px; }
@@ -16214,6 +16215,8 @@ header {
           color: #D52B1E; }
     .desktop-nav__list li:not(:first-child):not(:last-child) {
       padding-top: 52px; }
+    .desktop-nav__list li:first-child {
+      padding-left: 0px; }
   @media screen and (min-width: 1440px) {
     .desktop-nav {
       display: block; } }
@@ -16506,7 +16509,7 @@ header {
         border-top: 1px solid #D8DADA;
         padding-top: 90px;
         padding-bottom: 60px;
-        padding-left: 82px; } }
+        padding-left: 40px; } }
   @media screen and (min-width: 1440px) {
     .hero {
       padding-top: 90px;

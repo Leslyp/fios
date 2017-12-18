@@ -64,9 +64,9 @@ jQuery( document ).ready( function( $ ) {
 	    	    var price = object.plans[i]['price'];
 	    	    var legal = object.plans[i]['legal'];
 
-	    	    $("#slide-"+ i).find('.slide__price-title').text( description );
-	    		$("#slide-"+ i).find('.slide__price-amount').text( price );
-	    		$("#slide-"+ i).find('.slide__price-plan').text( legal );
+	    	    $("#slide-"+ i).find('.slide__price-title').html( description );
+	    		$("#slide-"+ i).find('.slide__price-amount').html( price );
+	    		$("#slide-"+ i).find('.slide__price-plan').html( legal );
 
 
 	    	    // get internet div
@@ -74,9 +74,9 @@ jQuery( document ).ready( function( $ ) {
 	    	    var devices = object.plans[i]['internet']['sublabel'];
 	    	    var download = object.plans[i]['internet']['detail'];
 
-	    	    $("#slide-"+ i).find('.slide__internet-title').text( title );
-	    		$("#slide-"+ i).find('.slide__internet-devices').text( devices );
-	    		$("#slide-"+ i).find('.slide__internet-download').text( download );
+	    	    $("#slide-"+ i).find('.slide__internet-title').html( title );
+	    		$("#slide-"+ i).find('.slide__internet-devices').html( devices );
+	    		$("#slide-"+ i).find('.slide__internet-download').html( download );
 
 
 	    		// get tv div
@@ -85,13 +85,13 @@ jQuery( document ).ready( function( $ ) {
 	    	    var detail = object.plans[i]['tv']['detail'];
 	    	    var devices = object.plans[i]['tv']['premiumChannels'];
 
-	    	    $("#slide-"+ i).find('.slide__tv-title').text( title );
-	    	    $("#slide-"+ i).find('.slide__tv-pick').text( sublabel );
-	    		$("#slide-"+ i).find('.slide__tv-multi').text( detail );
+	    	    $("#slide-"+ i).find('.slide__tv-title').html( title );
+	    	    $("#slide-"+ i).find('.slide__tv-pick').html( sublabel );
+	    		$("#slide-"+ i).find('.slide__tv-multi').html( detail );
 	    		
 	    		// if statement to determine if premium message should show
 	    		if (devices == true) {
-	    			$("#slide-"+ i).find('.slide__tv-view').text( "Premium movie channels included:" );
+	    			$("#slide-"+ i).find('.slide__tv-view').html( "Premium movie channels included:" );
 	    		} 
 
 
@@ -99,8 +99,8 @@ jQuery( document ).ready( function( $ ) {
 	    	    var title = object.plans[i]['phone']['label'];
 	    	    var sublabel = object.plans[i]['phone']['sublabel'];
 
-	    	    $("#slide-"+ i).find('.slide__home-title').text( title );
-	    	    $("#slide-"+ i).find('.slide__home-text').text( sublabel );
+	    	    $("#slide-"+ i).find('.slide__home-title').html( title );
+	    	    $("#slide-"+ i).find('.slide__home-text').html( sublabel );
 	    	}
   		})
 

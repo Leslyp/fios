@@ -3,10 +3,10 @@
 	
 	&__list {
 		display: flex;
-
+		margin: 0;
 		&-item {
 			a {
-				padding: 0 22px;
+				padding: 0 21px;
 				font-size: 24px;
 				line-height: 33px;
 				color: $color-black;
@@ -14,7 +14,7 @@
 			
 			/* target ul in li */
 			ul {
-				margin-left: 200px;
+				margin-left: 250px;
 				padding-top: 34px;
 				font-size: 12px;
 				line-height: 17px;
@@ -31,6 +31,9 @@
 			padding-top: 52px;
 		}
 
+		li:first-child {
+			padding-left: 0px;
+		}
 	}
 
 	@media screen and (min-width: 1440px) {
