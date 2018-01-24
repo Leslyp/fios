@@ -1,0 +1,15 @@
+.trio {
+	&-image {
+		border-radius: 5px;
+	}	
+	&__content {
+		padding: 60px;
+		&-title {
+			font-size: 40px;
+		}
+		&-text {
+			font-size: 22px;
+			line-height: 30px;
+		}
+	}
+}
